@@ -14,8 +14,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"));
 const bodyParser = require("body-parser");
 const { exec } = require('child_process');
-const accountSid = 'ACfd705874eb87f24e3ba2834127447ff7';
-const authToken = 'fef1f690f2853e0732ce87814929841e';
+const accountSid = 'write your access token';
+const authToken = 'write your access token';
 const nodeCmd = require('node-cmd');
 
 
